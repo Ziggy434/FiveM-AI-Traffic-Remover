@@ -6,7 +6,7 @@ local config = {
 }
 
 
-Citizen.CreateThread(funtion()
+Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
         SetPedDensityMultiplierThisFrame(config.pedFrequency)
